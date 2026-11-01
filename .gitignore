@@ -1,0 +1,14 @@
+# Dependencies and build output
+node_modules/
+frontend/dist/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and editor/OS files
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
